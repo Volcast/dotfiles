@@ -59,3 +59,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = sidney.martin@ik.me
+	name = Sidney MARTIN
