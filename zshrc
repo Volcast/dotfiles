@@ -70,3 +70,9 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# SSL Certificate configuration
+export OPENSSL_CONF=/dev/null
+export SSL_CERT_FILE=/usr/local/etc/openssl@3/cert.pem
+export SSL_CERT_DIR=/usr/local/etc/openssl@3/certs
+export CURL_CA_BUNDLE=/etc/ssl/cert.pem

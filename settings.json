@@ -8,7 +8,6 @@
     "editor.detectIndentation": false,
     "editor.fontSize": 14,
     "editor.guides.bracketPairs": true,
-    "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
     "editor.rulers": [
@@ -84,4 +83,13 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.minimap.enabled": false,
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
 }
