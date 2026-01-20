@@ -76,3 +76,12 @@ export OPENSSL_CONF=/dev/null
 export SSL_CERT_FILE=/usr/local/etc/openssl@3/cert.pem
 export SSL_CERT_DIR=/usr/local/etc/openssl@3/certs
 export CURL_CA_BUNDLE=/etc/ssl/cert.pem
+export RUBYOPT="-r$HOME/.rubyopenssl_default_store.rb $RUBYOPT"
+export SSL_CERT_FILE="$(brew --prefix)/etc/ca-certificates/cert.pem"
+export SSL_CERT_DIR="$(brew --prefix)/etc/ca-certificates/certs"
+# export RUBYOPT="-r$HOME/.rubyopenssl_default_store.rb"
+# # Force OpenSSL fix pour rbenv
+# alias ruby='ruby -r$HOME/.rubyopenssl_default_store.rb'
+# alias bundle='bundle -r$HOME/.rubyopenssl_default_store.rb'
+# alias rails='rails -r$HOME/.rubyopenssl_default_store.rb'
+# eval "$(rbenv init - zsh)"
